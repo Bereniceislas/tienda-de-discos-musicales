@@ -19,8 +19,7 @@ jobs:
           images: ${{ vars.DOCKER_USERNAME }}/ bere05
 
 
-
- - name: Log in to Docker Hub
+      - name: tienda de discos musicales
         uses: docker/login-action@v3
         with:
           username: ${{ vars.DOCKER_USERNAME }} / bere05
